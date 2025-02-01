@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        ConversorTemperaturaPadrao temperatura = new ConversorTemperaturaPadrao();
+        temperatura.celsiusParaFahrenheit(25);
+        temperatura.fahrenheitParaCelsius(75);
     }
 }
